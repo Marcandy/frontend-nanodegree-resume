@@ -1,3 +1,5 @@
+
+
 body,
 div,
 ul,
@@ -26,7 +28,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #FFCC00;
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +36,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #484848;
   line-height: 29px;
   padding: 10px;
 }
@@ -42,7 +44,7 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000;
+  color: #333333;
   line-height: 22px;
 }
 
@@ -81,12 +83,12 @@ h5 {
 
 p {
   font-size: 14px;
-  color: #333;
+  color: #333333;
   line-height: 21px;
 }
 
 a {
-  color: #1199c3;
+  color: #003366;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -100,16 +102,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #FFCC00;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #FFCC00;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #FFCC00;
 }
 
 .white-text {
@@ -150,6 +152,7 @@ a {
 
 .center-content {
   padding: 2.5% 5%;
+
 }
 
 ul {
@@ -165,6 +168,8 @@ ul {
 
 img {
   padding: 10px;
+  width: 28%;
+  height: auto;
 }
 
 span {
@@ -173,6 +178,21 @@ span {
 
 #lets-connect {
   text-align: center;
+}
+
+/*color change*/
+#education,
+#workExperience,
+#projects {
+  background-color:  #FFCC00;
+}
+
+#mapDiv {
+  background-color: #333333;
+}
+
+#mapDiv h2 {
+  color: #FFCC00;
 }
 
 /* Media queries to handle various device widths */
@@ -203,7 +223,7 @@ span {
 
 #map {
   display: block;
-  height: 100%;
+  height: 90%;
   margin: 0 5%;
 }
 
